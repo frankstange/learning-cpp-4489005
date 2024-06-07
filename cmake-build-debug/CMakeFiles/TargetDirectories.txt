@@ -1,0 +1,3 @@
+/Users/frank/CLionProjects/learning-cpp-4489005/cmake-build-debug/CMakeFiles/learning_cpp_4489005.dir
+/Users/frank/CLionProjects/learning-cpp-4489005/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/frank/CLionProjects/learning-cpp-4489005/cmake-build-debug/CMakeFiles/rebuild_cache.dir

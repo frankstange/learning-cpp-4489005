@@ -1,0 +1,123 @@
+cmake_minimum_required(VERSION 3.28)
+project(learning_cpp_4489005)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(src/Ch03/03_05e)
+include_directories(src/Ch03/03_07b)
+include_directories(src/Ch03/03_07e)
+include_directories(src/Ch03/03_10b)
+include_directories(src/Ch03/03_10e)
+include_directories(src/Ch03/03_11)
+include_directories(src/Ch03/03_12)
+include_directories(src/Ch04/04_05)
+include_directories(src/Ch04/04_06)
+include_directories(src/Ch05/05_01b)
+include_directories(src/Ch05/05_01e)
+include_directories(src/Ch05/05_03b)
+include_directories(src/Ch05/05_03e)
+include_directories(src/Ch05/05_04)
+include_directories(src/Ch05/05_05)
+include_directories(src/Ch06/06_03)
+include_directories(src/Ch06/06_04)
+
+add_executable(learning_cpp_4489005
+        src/Ch00/CodeDemo.cpp
+        src/Ch01/01_02b/CodeDemo.cpp
+        src/Ch01/01_02e/CodeDemo.cpp
+        src/Ch01/01_03/CodeDemo.cpp
+        src/Ch01/01_04/CodeDemo.cpp
+        src/Ch02/02_03b/CodeDemo.cpp
+        src/Ch02/02_03e/CodeDemo.cpp
+        src/Ch02/02_05b/CodeDemo.cpp
+        src/Ch02/02_05e/CodeDemo.cpp
+        src/Ch02/02_06b/CodeDemo.cpp
+        src/Ch02/02_06e/CodeDemo.cpp
+        src/Ch02/02_08b/CodeDemo.cpp
+        src/Ch02/02_08e/CodeDemo.cpp
+        src/Ch02/02_09b/CodeDemo.cpp
+        src/Ch02/02_09e/CodeDemo.cpp
+        src/Ch02/02_10b/CodeDemo.cpp
+        src/Ch02/02_10e/CodeDemo.cpp
+        src/Ch02/02_11b/CodeDemo.cpp
+        src/Ch02/02_11e/CodeDemo.cpp
+        src/Ch02/02_12b/CodeDemo.cpp
+        src/Ch02/02_12e/CodeDemo.cpp
+        src/Ch02/02_13/CodeDemo.cpp
+        src/Ch02/02_14/CodeDemo.cpp
+        src/Ch03/03_01b/CodeDemo.cpp
+        src/Ch03/03_01e/CodeDemo.cpp
+        src/Ch03/03_02b/CodeDemo.cpp
+        src/Ch03/03_02e/CodeDemo.cpp
+        src/Ch03/03_03b/CodeDemo.cpp
+        src/Ch03/03_03e/CodeDemo.cpp
+        src/Ch03/03_05b/CodeDemo.cpp
+        src/Ch03/03_05e/CodeDemo.cpp
+        src/Ch03/03_05e/cow.cpp
+        src/Ch03/03_05e/cow.h
+        src/Ch03/03_06b/CodeDemo.cpp
+        src/Ch03/03_06e/CodeDemo.cpp
+        src/Ch03/03_07b/CodeDemo.cpp
+        src/Ch03/03_07b/cow.cpp
+        src/Ch03/03_07b/cow.h
+        src/Ch03/03_07e/CodeDemo.cpp
+        src/Ch03/03_07e/cow.cpp
+        src/Ch03/03_07e/cow.h
+        src/Ch03/03_09b/CodeDemo.cpp
+        src/Ch03/03_09e/CodeDemo.cpp
+        src/Ch03/03_10b/CodeDemo.cpp
+        src/Ch03/03_10b/cow.cpp
+        src/Ch03/03_10b/cow.h
+        src/Ch03/03_10e/CodeDemo.cpp
+        src/Ch03/03_10e/cow.cpp
+        src/Ch03/03_10e/cow.h
+        src/Ch03/03_11/CodeDemo.cpp
+        src/Ch03/03_11/records.cpp
+        src/Ch03/03_11/records.h
+        src/Ch03/03_12/CodeDemo.cpp
+        src/Ch03/03_12/records.cpp
+        src/Ch03/03_12/records.h
+        src/Ch04/04_01b/CodeDemo.cpp
+        src/Ch04/04_01e/CodeDemo.cpp
+        src/Ch04/04_02b/CodeDemo.cpp
+        src/Ch04/04_02e/CodeDemo.cpp
+        src/Ch04/04_03b/CodeDemo.cpp
+        src/Ch04/04_03e/CodeDemo.cpp
+        src/Ch04/04_04b/CodeDemo.cpp
+        src/Ch04/04_04e/CodeDemo.cpp
+        src/Ch04/04_05/CodeDemo.cpp
+        src/Ch04/04_05/records.cpp
+        src/Ch04/04_05/records.h
+        src/Ch04/04_06/CodeDemo.cpp
+        src/Ch04/04_06/records.cpp
+        src/Ch04/04_06/records.h
+        src/Ch05/05_01b/CodeDemo.cpp
+        src/Ch05/05_01b/records.cpp
+        src/Ch05/05_01b/records.h
+        src/Ch05/05_01e/CodeDemo.cpp
+        src/Ch05/05_01e/records.cpp
+        src/Ch05/05_01e/records.h
+        src/Ch05/05_02b/CodeDemo.cpp
+        src/Ch05/05_02e/CodeDemo.cpp
+        src/Ch05/05_03b/CodeDemo.cpp
+        src/Ch05/05_03b/records.cpp
+        src/Ch05/05_03b/records.h
+        src/Ch05/05_03e/CodeDemo.cpp
+        src/Ch05/05_03e/records.cpp
+        src/Ch05/05_03e/records.h
+        src/Ch05/05_04/CodeDemo.cpp
+        src/Ch05/05_04/records.cpp
+        src/Ch05/05_04/records.h
+        src/Ch05/05_05/CodeDemo.cpp
+        src/Ch05/05_05/records.cpp
+        src/Ch05/05_05/records.h
+        src/Ch06/06_01b/CodeDemo.cpp
+        src/Ch06/06_01e/CodeDemo.cpp
+        src/Ch06/06_02b/CodeDemo.cpp
+        src/Ch06/06_02e/CodeDemo.cpp
+        src/Ch06/06_03/CodeDemo.cpp
+        src/Ch06/06_03/records.cpp
+        src/Ch06/06_03/records.h
+        src/Ch06/06_04/CodeDemo.cpp
+        src/Ch06/06_04/records.cpp
+        src/Ch06/06_04/records.h)
